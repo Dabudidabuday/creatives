@@ -1,0 +1,39 @@
+.main-header {
+    margin-bottom: 200px;
+    height: 116px;
+    border-bottom: 1px solid #626262;
+
+    .main-header__navigation-list {
+        display: flex;
+        justify-content: space-between;
+        width: 660px;
+
+        .item {
+            height: 117px;
+        }
+
+        .item-link {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                border-bottom: 5px solid #11749e;
+                transition: .3s;
+            }
+        }
+    }
+
+    .socials-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 142px;
+
+        .item-img svg:hover {   /* не работаитттт (((((*/
+            fill: #11749e;
+        }
+    }
+}

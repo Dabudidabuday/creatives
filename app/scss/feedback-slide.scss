@@ -1,0 +1,70 @@
+.feedback {
+    position: relative;
+    height: 850px;
+    background: url('../img/feedback-bg.jpg') center/cover;
+
+    .feedback__title {
+        padding-top: 220px;
+        text-align: center;
+        font-size: 37px;
+        text-transform: uppercase;
+        color: #fff;
+
+        &::before {
+            position: absolute;
+            top: 125px;
+            right: 650px;
+            content: 'C';
+            font-family: 'News Cycle', sans-serif;
+            font-size: 247px;
+            opacity: 0.3;
+        }
+    }
+
+    .feedback__form {
+        margin: 0 auto;
+        margin-top: 145px;
+        width: 100%;
+
+        .feedback__fieldset {
+
+            .feedback__input {
+                margin-bottom: 40px;
+                padding: 20px 20px;
+                width: 368px;
+                height: 46px;
+                color: #fff;
+                background: transparent;
+                border: 1px solid #fff;
+                box-sizing: border-box;
+
+                &:not(:last-child) {
+                    margin-right: 31px;
+                }
+            }
+
+            .feedback__textarea {
+                padding: 20px 20px;
+                vertical-align: text-top;
+                width: 1175px;
+                height: 150px;
+                color: #fff;
+                background: transparent;
+                border: 1px solid #fff;
+                box-sizing: border-box;
+            }
+        }
+
+        .feedback__submit {
+            display: block;
+            margin: 47px auto;
+            width: 227px;
+            height: 64px;
+            font-size: 24px;
+            color: #fff;
+            text-transform: uppercase;
+            background-color: #11749e;
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.welcome-slide {
+    height: 880px;
+    background: url('../img/welcome-bg.jpg') center/cover;
+}
+
+.welcome-bg {
+    margin-top: 22px;
+}
+
+.main-title {
+    display: block;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Bowlby One SC', cursive;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-subtitle {
+    margin-bottom: 115px;
+    font-size: 24px;
+    color: #11749e;
+    text-align: center;
+    line-height: 51px;
+    letter-spacing: 25px;
+}
+
+.main-header__scroller {
+    margin: 0 auto;
+    display: block;
+    width: 90px;
+    height: 100px;
+}
+
+.main-header__scroller-text {
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.main-header__scroller-img {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,134 @@
+.blog {
+    height: 1015px;
+
+    .blog__title {
+        padding-top: 160px;
+        position: relative;
+        text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 37px;
+        text-transform: uppercase;
+
+        &:before {
+            position: absolute;
+            top: 65px;
+            left: 630px;
+            content: 'B';
+            font-size: 247px;
+            font-weight: 500;
+            opacity: 0.1;
+        }
+    }
+
+    .blog__subtitle {
+        padding-top: 110px;
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    .blog__post-list {
+        padding-top: 75px;
+        display: flex;
+    }
+
+    .item {
+        .item__title {
+            padding-top: 40px;
+            text-align: center;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #11749e;
+        }
+
+        .item__description {
+            padding: 25px 30px;
+            text-align: center;
+            font-size: 15px;
+
+        }
+    }
+}
+
+.notes {
+    height: 355px;
+    background-color: #11749e;
+
+    .notes__list {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .item {
+        margin-top: 110px;
+        display: flex;
+        max-width: 560px;
+
+        .item__img {
+            padding-right: 30px;
+            width: 75px;
+            height: 75px;
+        }
+
+        .item__text {
+            align-items: center;
+            width: 420px;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 15px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #fff;
+        }
+    }
+}
+
+.advantages {
+    height: 850px;
+    background: url('../img/advantages-bg.jpg') center/cover;
+
+    .advantages__description {
+        width: 460px;
+        height: 380px;
+
+        .advantages__title {
+            padding-bottom: 40px;
+            font-size: 25px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .advantages__subtitle {
+            margin-bottom: 70px;
+            font-family: 'News Cycle', sans-serif;
+            font-size: 15px;
+            line-height: 22px;
+            font-weight: 100;
+            color: #fff;
+        }
+
+        .advantages__bullets {
+            .bullet {
+                margin-bottom: 20px;
+                padding: 10px 20px;
+                color: #fff;
+                text-transform: uppercase;
+                background-color: #11749e;
+            }
+
+            .bullet-1 {
+                width: 370px;
+            }
+
+            .bullet-2 {
+                width: 400px;
+            }
+
+            .bullet-3 {
+                width: 430px;
+            }
+        }
+    }
+}
